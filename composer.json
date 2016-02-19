@@ -18,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "xEdelweiss\\ClockWord\\" : "src/",
-            "xEdelweiss\\ClockWord\\Tests\\" : "tests/"
+            "xEdelweiss\\Rada\\" : "src/",
+            "xEdelweiss\\Rada\\Tests\\" : "tests/"
         }
     }
 }
