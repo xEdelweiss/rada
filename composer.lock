@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e82c7f26d9cff6c6e9cc026c1e4d4460",
-    "content-hash": "7d11ec51d1c5c9e5c075352a67b255cb",
+    "hash": "ba4837bb31cc525cb5c09a6dedb759f0",
+    "content-hash": "9b6691de425728408626e2762abc408a",
     "packages": [
         {
             "name": "nesbot/carbon",
@@ -176,6 +176,56 @@
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
             "time": "2016-02-02 13:44:19"
+        },
+        {
+            "name": "teqneers/php-stream-wrapper-for-git",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/teqneers/PHP-Stream-Wrapper-for-Git.git",
+                "reference": "715eea710fd95d58f4afc9bdcb607c0c314dc11e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/teqneers/PHP-Stream-Wrapper-for-Git/zipball/715eea710fd95d58f4afc9bdcb607c0c314dc11e",
+                "reference": "715eea710fd95d58f4afc9bdcb607c0c314dc11e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "knplabs/gaufrette": "~0.2",
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "knplabs/gaufrette": "to use the Gaufrette adapter"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "TQ": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Gehrig",
+                    "email": "gehrig@teqneers.de",
+                    "homepage": "http://opensource.teqneers.de/"
+                }
+            ],
+            "description": "Git Stream Wrapper for PHP",
+            "homepage": "https://github.com/teqneers/PHP-Stream-Wrapper-for-Git",
+            "keywords": [
+                "git",
+                "stream-wrapper",
+                "streamwrapper"
+            ],
+            "time": "2015-11-26 15:23:29"
         }
     ],
     "packages-dev": [
